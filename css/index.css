@@ -72,6 +72,10 @@ header{
     color: white;
 }
 
+.nav-link{
+    color: white;
+}
+
 ol, ul {
     padding-left: 0;
 }

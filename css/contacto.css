@@ -8,7 +8,7 @@
 .header {
     width: 100%;
     height: 90px;
-    background: rgb(83, 83, 195);
+    /* background: rgb(83, 83, 195); */
     position: static;
     z-index: 10;
     top: 0;
@@ -26,6 +26,7 @@
 
 #gracias {
     color: white;
+    background-image: linear-gradient(to right, #5353c3, black);
     padding: 0px;
     font-size: 50px;
 }
@@ -45,7 +46,8 @@
 
 #foo2 {
     display: block;
-    background-color: rgb(83,83,195);
+    /* background-color: rgb(83,83,195); */
+    background-image: linear-gradient(to right, #5353c3, black);
     text-align: center;
     color: seashell;
     margin-bottom: 20px;
