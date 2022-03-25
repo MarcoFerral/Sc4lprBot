@@ -10,6 +10,7 @@
     --font-secondary: "Smooch", sans-serif;
     --text-lg:2em;
     --text-md:2.4em;
+    --bs-body-font-size: 1.5rem;
 
 }
 /* RESET */
@@ -71,6 +72,10 @@ header{
     color: white;
 }
 
+ol, ul {
+    padding-left: 0;
+}
+
 header .navbar{
     min-height: 8vh;
     justify-content: right;
@@ -130,7 +135,7 @@ header .menu__item{
 
 /* GALERIA */
 
-.Galeria_Sc4lpr_bot {
+/* .Galeria_Sc4lpr_bot {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat (2,1fr);
@@ -139,9 +144,11 @@ header .menu__item{
     "chart2     chart3              chart4";
     gap: 10px;
     margin-bottom: 50px;
-}
+} */
 
 /* BODY */
+
+
 
 p{
     margin-top: 10px;
@@ -288,7 +295,7 @@ p{
 
 .video{
     max-width: 480px;
-    margin-bottom: -30px;
+    margin-bottom: 10px;
 }
     
     
