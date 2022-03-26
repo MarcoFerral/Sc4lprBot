@@ -311,7 +311,7 @@ p{
 /* FOOTER */
 
 .tituloPrincipal5{
-    min-height: 20px;
+    /* min-height: 20px; */
 }
 
 #foo2 {
@@ -321,6 +321,7 @@ p{
     text-align: center;
     color: seashell;
     margin-bottom: 3px;
+    padding: 0;
     
 }
 
