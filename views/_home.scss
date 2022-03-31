@@ -1,0 +1,155 @@
+p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.chart2{
+    grid-area: chart2;
+
+}
+
+.chart3{
+    grid-area: chart3;
+}
+
+.chart4{
+    grid-area: chart4;
+}
+
+.chart5{
+    grid-area: chart5;
+}
+
+.chart6{
+    grid-area: chart6;
+}
+
+.chart7{
+    grid-area: chart7;
+    
+}
+
+.chart9{
+    grid-area: chart9;
+}
+
+.chart10{
+    width: 100%;
+    padding: 30px;
+}
+
+.tituloPrincipal2{
+    grid-area: tituloPrincipal2;
+
+}
+
+#bot{
+    text-align: center;
+    color:royalblue;
+    font-size: 4em;
+    margin-top: 40px;
+    font-family: $font-primary;
+}
+.descripcion1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}
+
+.descripcion2{
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-size: 30px;
+
+}
+
+.descripcion3{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    font-size: 30px;
+
+}
+
+.descripcion4{
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.descripcion5{
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.descripcion6{
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+#opiniones{
+    font-size: 35px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+#opiniones2{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#opiniones2 img{
+    width: 5px;
+}
+
+#testimonios{
+    font-size: $text-md;
+}
+
+#testimonios img{
+    width: 10px;
+}
+#testimonios article{
+    color: $principal;
+}
+
+.bloque1{
+    align-items: center;
+}
+
+#aprende {
+    text-decoration: none;
+    color: darkred;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 60px;
+}
+
+.video{
+    max-width: 480px;
+    margin-bottom: 10px;
+}
+    
+.enlace_curso{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    
+}
