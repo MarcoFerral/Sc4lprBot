@@ -5,3 +5,11 @@ $font-secondary: "Smooch", sans-serif;
 $text-lg:2em;
 $text-md:2.4em;
 $bs-body-font-size: 1.5rem;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);

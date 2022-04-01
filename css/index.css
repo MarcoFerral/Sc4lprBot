@@ -78,6 +78,7 @@ img {
   justify-content: center; }
 
 .logo img {
+  display: flex;
   width: 20rem;
   padding: 3px;
   margin-bottom: -119px;
@@ -164,15 +165,15 @@ p {
   font-family: "Inter", sans-serif; }
 
 .descripcion1 {
-  text-align: center;
   margin-bottom: 30px;
-  font-size: 30px; }
+  font-size: 15px;
+  text-align: -webkit-center; }
 
 .descripcion2 {
-  text-align: center;
   margin-bottom: 70px;
   margin-top: 70px;
-  font-size: 30px; }
+  font-size: 15px;
+  text-align: -webkit-center; }
 
 .descripcion3 {
   text-align: center;
