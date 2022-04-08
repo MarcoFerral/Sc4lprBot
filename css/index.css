@@ -1,6 +1,42 @@
 /* IMPORTS */
 /* MISCELANEOS */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Smooch+Sans:wght@300;500;700&display=swap");
+.img-chica3 {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-image: url("../public/img/imgchica3.jpg"); }
+
+.img-chico1 {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-image: url("../public/img/imgchico1.jpg"); }
+
+.img-chico2 {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-image: url("../public/img/imgchico2.jpg"); }
+
+.img-mujer1 {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-image: url("../public/img/imgmujer1.jpg"); }
+
+.img-hombremayor1 {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-image: url("../public/img/imghombremayor1.jpg"); }
+
+.img-mujer2 {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-image: url("../public/img/imgmujer2.jpg"); }
+
 /* RESET */
 *,
 *::before,
@@ -27,6 +63,13 @@ a {
 li a {
   text-decoration: none;
   display: inline-block; }
+
+p {
+  font-size: 15px; }
+
+h1 {
+  font-size: 30px;
+  text-align: center; }
 
 .flex-row {
   display: flex; }
@@ -125,6 +168,59 @@ a img {
   padding: 30px; }
 
 /* VIEWS */
+main {
+  max-width: 1080px;
+  margin: 0 auto; }
+  main .testimonios-seccion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem; }
+    main .testimonios-seccion div {
+      width: 100%;
+      height: 200px;
+      background-size: cover; }
+    main .testimonios-seccion .img1 {
+      background-image: url("../public/img/chica3.jpg");
+      margin-top: 40px;
+      margin-bottom: 30px;
+      text-align: justify; }
+    main .testimonios-seccion .img2 {
+      background-image: url("../public/img/chico1.jpg");
+      margin-top: 40px;
+      margin-bottom: 30px;
+      text-align: justify; }
+    main .testimonios-seccion .img3 {
+      background-image: url("../public/img/chico2.jpg");
+      margin-top: 40px;
+      margin-bottom: 30px;
+      text-align: justify; }
+
+.testimonios-seccion2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem; }
+  .testimonios-seccion2 div {
+    width: 100%;
+    height: 200px;
+    background-size: cover; }
+  .testimonios-seccion2 .img4 {
+    background-image: url("../public/img/mujer1.jpeg");
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: justify; }
+  .testimonios-seccion2 .img5 {
+    background-image: url("../public/img/hombremayor1.jpg");
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: justify; }
+  .testimonios-seccion2 .img6 {
+    background-image: url("../public/img/mujer2.jpg");
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: justify; }
+
 p {
   margin-top: 10px;
   margin-bottom: 30px; }
@@ -245,6 +341,10 @@ p {
   font-size: 20px;
   display: flex;
   text-align: center; }
+
+.carousel {
+  margin-bottom: 60px;
+  margin-top: 50px; }
 
 .header {
   width: 100%;

@@ -1,0 +1,33 @@
+$principal: #5353c3;
+$secondary: #FFFFFF;
+$font-primary: "Inter", sans-serif;
+$font-secondary: "Smooch", sans-serif;
+$text-lg:2em;
+$text-md:2.4em;
+$bs-body-font-size: 1.5rem;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$images: (
+  chica3:'chica3',
+  chico1: 'chico1',
+  chico2: 'chico2',
+  mujer1: 'mujer1',
+  hombremayor1: 'hombremayor1',
+  mujer2: 'mujer2'
+);
+
+@each $images, $valor in $images {
+    .img-#{$images} {
+      width: 100%;
+      height: 150px;
+      background-size: cover;
+      background-image: url('../public/img/img#{$images}.jpg');
+    }
+}
