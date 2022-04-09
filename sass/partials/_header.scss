@@ -14,8 +14,7 @@ header{
 
     .navbar{
         min-height: 8vh;
-        justify-content: right;
-        align-items: center;
+        @include flex(row, space-between, center, 2rem);
         font-size: 13px;
         padding: 0 2rem;
         flex-wrap: wrap;
@@ -45,7 +44,7 @@ header{
     }
     
     .logo img {
-        display: flex;
+        @include flex(row, space-between, center, 2rem);
         width: 20rem;
         padding: 3px;
         margin-bottom: -119px;
@@ -62,5 +61,12 @@ header{
     }
     
     .menu{
-        display: flex;
+        @include flex(row, space-between, center, 2rem);
+    }
+
+    .nav-item {
+        &--active {
+            border-bottom: 2px solid red;
+
+        }
     }

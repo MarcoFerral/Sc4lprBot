@@ -1,11 +1,12 @@
-.flex-row {
-    display: flex;
+@mixin flex($direction: row, $justify: flex-start, $align: flex-start, $gap: 0) {
+    flex-direction: $direction;
+    justify-content: $justify;
+    align: $align;
+    gap: $gap
+
 }
 
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .contenedor{
     max-width: 1080px;

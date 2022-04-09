@@ -38,3 +38,15 @@ $images: (
       background-image: url('../public/img/img#{$images}.jpg');
     }
 }
+
+$paddings: (
+    large: 3rem,
+    medium: 2rem,
+    small: 1rem
+);
+
+@each $var, $val in $paddings {
+    .p-#{$var} {
+      padding: #{$val}
+  }
+}
