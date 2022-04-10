@@ -58,8 +58,7 @@
 html {
   font-size: 62.5%;
   font-family: "Inter", sans-serif;
-  color: black;
-  background-color: papayawhip; }
+  color: black; }
 
 ul {
   list-style-type: none; }
@@ -155,7 +154,8 @@ img {
   text-align: center;
   color: seashell;
   margin-bottom: 3px;
-  padding: 0; }
+  padding: 0;
+  width: 100%; }
 
 #foo2 {
   display: block;
