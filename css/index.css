@@ -154,11 +154,11 @@ img {
   text-align: center;
   color: seashell;
   margin-bottom: 3px;
-  padding: 0;
+  padding: 90px;
   width: 100%; }
 
 #foo2 {
-  display: block;
+  display: flex;
   background-color: #5353c3;
   background-image: linear-gradient(to left, black, #5353c3);
   text-align: center;
