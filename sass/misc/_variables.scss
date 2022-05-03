@@ -14,13 +14,6 @@ $grid-breakpoints: (
   xxl: 1400px
 );
 
-$aspect-ratios: (
-  "1x1": 100%,
-  "4x3": calc(3 / 4 * 100%),
-  "16x9": calc(9 / 16 * 100%),
-  "21x9": calc(9 / 21 * 100%)
-);
-
 $images: (
   chica3:'chica3',
   chico1: 'chico1',
@@ -49,4 +42,16 @@ $paddings: (
     .p-#{$var} {
       padding: #{$val}
   }
+}
+
+@media screen and (min-width:780px ) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width:480px ) and (max-width: 780px) {
+  
+}
+
+@media screen and (max-width: 480px) {
+  
 }

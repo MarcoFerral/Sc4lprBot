@@ -13,6 +13,7 @@ header{
     }
 
     .navbar{
+        max-width: max-content;
         min-height: 8vh;
         @include flex(row, space-between, center, 2rem);
         font-size: 13px;
